@@ -4,6 +4,7 @@
   "description": "mongodb-stitch API sources",
   "main": "index.js",
   "scripts": {
+    "login": "npx stitch-cli login",
     "deploy": "npx stitch-cli import --path foodlense-api",
     "test": "npx jest"
   },
