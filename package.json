@@ -1,0 +1,31 @@
+{
+  "name": "foodlense-api",
+  "version": "0.0.1",
+  "description": "mongodb-stitch API sources",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx stitch-cli import --path foodlense-api",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foodlense/foodlense-api.git"
+  },
+  "author": "oliver.erxleben@me.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foodlense/foodlense-api/issues"
+  },
+  "homepage": "https://github.com/foodlense/foodlense-api#readme",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "mongodb-stitch-cli": "^1.2.3"
+  },
+  "dependencies": {
+    "mongodb-stitch-server-sdk": "^4.3.2"
+  }
+}
